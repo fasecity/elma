@@ -6,7 +6,9 @@
 <head runat="server">
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title><%: Page.Title %> - My ASP.NET Application</title>
+    <title><%: Page.Title %> - Elma86</title>
+    
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans|Raleway:400,900i" rel="stylesheet"> 
 
     <asp:PlaceHolder runat="server">
         <%: Scripts.Render("~/bundles/modernizr") %>
@@ -38,7 +40,7 @@
                 <%--Site Scripts--%>
             </Scripts>
         </asp:ScriptManager>
-
+<%--/////////////////////////////////////////////////////////////////////////--%>
         <div class="navbar navbar-inverse navbar-fixed-top">
             <div class="container">
                 <div class="navbar-header">
@@ -47,26 +49,135 @@
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                     </button>
-                    <a class="navbar-brand" runat="server" href="~/">Application name</a>
+                    <a class="navbar-brand" runat="server" href="~/">elma86</a>
                 </div>
                 <div class="navbar-collapse collapse">
                     <ul class="nav navbar-nav">
-                        <li><a runat="server" href="~/">Home</a></li>
+                       <%-- <li><a runat="server" href="~/">Home</a></li>
                         <li><a runat="server" href="~/About">About</a></li>
-                        <li><a runat="server" href="~/Contact">Contact</a></li>
+                        <li><a runat="server" href="~/Contact">Contact</a></li>--%>
                     </ul>
                 </div>
             </div>
         </div>
-        <div class="container body-content">
+        <%--<div class="container body-content">--%>
             <asp:ContentPlaceHolder ID="MainContent" runat="server">
             </asp:ContentPlaceHolder>
-            <hr />
-            <footer>
-                <p>&copy; <%: DateTime.Now.Year %> - My ASP.NET Application</p>
-            </footer>
-        </div>
+        
+        <%--</div>--%>
 
+        <div id="stage">
+          
+             <div id="stage-caption">
+          
+                 
+                 <%-- <h1 class="display-3">A platform built to take back your fans.</h1>--%>
+                
+                   <h1 style=" font-family: 'Open Sans', sans-serif; padding-top:100px; color:white; font-size:64px;line-height: 73px;text-shadow: none; font-weight:100; ">
+         A platform built to</h1><h1 style="font-style:italic; font-weight:800;font-size:64px;line-height: 73px;text-shadow: none; font-family: 'Raleway', 'Blackadder ITC'; "> take back your fans.</h1>
+                    <p>Artists, managers, labels, and brands use our tools to build
+                        native mobile experiences which bring them closer to their biggest fans.</p>
+             
+                    <a href="" class="btn btn-lg btn-success">JOIN</a>
+              
+                    <br />
+                 <br />
+                 <br />
+                
+             </div>
+        </div>
+          <section id="feature-enter" class="feature-enter">
+            <div class="container">
+                <div class="row">
+                    <div class="feature-content">
+                        <div class="col-md-12">
+                        <h1 style="font-family: 'Raleway', sans-serif,'Blackadder ITC'; font-weight:900" >So exactly what is it we <strong>do?</strong></h1>
+                            <p style="font-family: 'Raleway', sans-serif; color:black; font-size:20px;">"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
+                             </div>
+                        
+                        </div>
+                    
+                </div>
+            </div>
+        </section>
+       
+
+        <section id="feature-one" class="feature-two">
+            <div class="container">
+                <div class="row">
+                    <div class="feature-content">
+                        <div class="col-lg-6">
+                        <iframe width="100%" height="315" src="https://www.youtube.com/embed/JdE-ywYbWbo" frameborder="0" allowfullscreen></iframe>
+                        </div>
+                        <div class="col-lg-5 col-lg-offset-1">
+                            <h6>Watch This</h6>
+                            <h2>Real time Architectural rendering</h2>
+                            <p class="lead">
+                                "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+         <section id="feature-pilar" class="feature-pilar">
+            <div class="container">
+                <div class="row">
+                    <div class="feature-content">
+                        <div class="col-sm-12">
+                            <h1 style= "color:#ff3364;font-family: 'Raleway', sans-serif;" >Our three <strong>pillars of service</strong></h1>
+                            
+                            <div class="col-sm-4">
+                           <br /><br />     <div><h3>Music</h3></div><br />
+                                    <div><img src="assets/music-icon-61648.png"  height="70" width="70" /></div>
+                                 
+                            </div>
+                            <div class="col-sm-4">
+                           <br /><br />     <div><h3>Augmented Reality</h3></div><br />
+                                <div><img src="assets/arimage.png" height="70" width="70"  /></div>
+                                
+                            </div>
+                            <div class="col-sm-4">
+                                  <br /><br /><div>
+                                <h3>Web design</h3></div>
+                                <br />
+                                <div><img src="assets/webikicon.png" height="70" width="70" />
+
+                                                                     </div>
+                               
+                            </div>
+                                 
+                             </div>
+                        
+                        </div>
+                    </div>
+                </div>
+            
+             
+        </section>
+        <section id="feature-two" class="feature-dark">
+             <div class="container">
+                 <div class="row">
+                     <div class="feature-content">
+                         <div class="col-lg-6 feature-caption">
+                             <h6>We make music for all your needs</h6>
+                             <h2>Hows it dooooo mang</h2>
+                             <div class="lead">
+                                "At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores "
+                             </div>
+                             <a href="http://alexa87studios.azurewebsites.net/" role="button" class="btn btn-lg btn-success">Listen to our music</a>
+                        <br />
+                              </div>
+                         <div class="col-lg-6 text-sm-center hidden-sm-down">
+                             <img src="assets/abstract-music-rock-bw.jpg" class="img-rounded"/>
+                         </div>
+
+                     </div>
+                 </div>
+             </div>
+
+        </section>
+       
     </form>
 </body>
 </html>

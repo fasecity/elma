@@ -108,9 +108,14 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="About.aspx" />
+    <Content Include="assets\abstract-music-rock-bw.jpg" />
+    <Content Include="assets\arimage.png" />
+    <Content Include="assets\music-icon-61648.png" />
+    <Content Include="assets\webikicon.png" />
     <Content Include="Contact.aspx" />
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
+    <Content Include="assets\pexels-photo-24469%281%29.jpg" />
     <Content Include="Content\Site.css" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="fonts\glyphicons-halflings-regular.woff" />
